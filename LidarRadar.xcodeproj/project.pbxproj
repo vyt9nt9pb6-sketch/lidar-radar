@@ -1,0 +1,1247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		92DF923D07A80185DC787C29 /* LidarRadarApp.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = LidarRadarApp.swift;
+			path = LidarRadar/LidarRadarApp.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC4AE75127CED2F7EEE02393 /* DistanceStabilizer.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = DistanceStabilizer.swift;
+			path = LidarRadar/AR/DistanceStabilizer.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		72DC6AAFF692B436DE861B98 /* LiDARSessionController.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = LiDARSessionController.swift;
+			path = LidarRadar/AR/LiDARSessionController.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB4E8AFD44C4E1AF1B4E61D0 /* MetalDepthReducer.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = MetalDepthReducer.swift;
+			path = LidarRadar/AR/MetalDepthReducer.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		38B0FDECB544351FFF519EC3 /* MultitaskingCamera.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = MultitaskingCamera.swift;
+			path = LidarRadar/AR/MultitaskingCamera.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		7DD310043F1ED1A0B90F9E40 /* LiDARMultitaskingCapture.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = LiDARMultitaskingCapture.swift;
+			path = LidarRadar/AR/LiDARMultitaskingCapture.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		982475C7C68134F75603FD0F /* AlertEngine.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = AlertEngine.swift;
+			path = LidarRadar/Alerts/AlertEngine.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		1C83C34570AB91F1DCFF2F5F /* LiveActivityManager.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = LiveActivityManager.swift;
+			path = LidarRadar/LiveActivity/LiveActivityManager.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		51332097B73E72B006E5D52E /* DistanceCardRenderer.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = DistanceCardRenderer.swift;
+			path = LidarRadar/PiP/DistanceCardRenderer.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB3DF61E17D6C5A8930067FD /* DistancePictureInPicture.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = DistancePictureInPicture.swift;
+			path = LidarRadar/PiP/DistancePictureInPicture.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E9C39E75C91D89729BB95660 /* AppModel.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = AppModel.swift;
+			path = LidarRadar/Services/AppModel.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		8A32EB9E98884CA74A5087ED /* BackgroundKeeper.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = BackgroundKeeper.swift;
+			path = LidarRadar/Services/BackgroundKeeper.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		1FD251FA7BF4FC54902E348F /* SettingsStore.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = SettingsStore.swift;
+			path = LidarRadar/Services/SettingsStore.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		E5AB5B78E77E4B23A1A5040A /* ConsentView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = ConsentView.swift;
+			path = LidarRadar/Views/ConsentView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		C1EDF5161D451FFBE4EB0BF0 /* PermissionView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = PermissionView.swift;
+			path = LidarRadar/Views/PermissionView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		383B3827BCED61EC4ADDFBCC /* RadarView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = RadarView.swift;
+			path = LidarRadar/Views/RadarView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		B3C8017265CE6DD5CEBDAA62 /* SettingsView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = SettingsView.swift;
+			path = LidarRadar/Views/SettingsView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		BD5CD3779C98F139AA4B59BD /* Theme.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = Theme.swift;
+			path = LidarRadar/Views/Theme.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F9041F220F3C865C24C560FE /* UnsupportedDeviceView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = UnsupportedDeviceView.swift;
+			path = LidarRadar/Views/UnsupportedDeviceView.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F932763ABCD1108FF87F9C36 /* DepthReduction.metal */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.metal;
+			name = DepthReduction.metal;
+			path = LidarRadar/Shaders/DepthReduction.metal;
+			sourceTree = SOURCE_ROOT;
+		};
+		8E6185D19FD401D45C9AAE51 /* DangerLevel.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = DangerLevel.swift;
+			path = Shared/DangerLevel.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		CDFF768B1F3E73072A0842E7 /* RadarAttributes.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = RadarAttributes.swift;
+			path = Shared/RadarAttributes.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		4105278E1A2F83193451B170 /* L10n.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = L10n.swift;
+			path = Shared/L10n.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A9576ADAD3F9CAA640C04F4 /* Assets.xcassets */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			name = Assets.xcassets;
+			path = LidarRadar/Assets.xcassets;
+			sourceTree = SOURCE_ROOT;
+		};
+		21E9517B78388116928B9331 /* PrivacyInfo.xcprivacy */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = PrivacyInfo.xcprivacy;
+			path = LidarRadar/PrivacyInfo.xcprivacy;
+			sourceTree = SOURCE_ROOT;
+		};
+		791A0732AF26A719F97922EE /* Localizable.xcstrings */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json.xcstrings;
+			name = Localizable.xcstrings;
+			path = Shared/Localizable.xcstrings;
+			sourceTree = SOURCE_ROOT;
+		};
+		C7DFF2FCD007E23C51775EA2 /* RadarLiveActivityWidget.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = RadarLiveActivityWidget.swift;
+			path = LidarRadarWidget/RadarLiveActivityWidget.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		39CDEBF10F4B284BE8C4FA9E /* PrivacyInfo.xcprivacy */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = PrivacyInfo.xcprivacy;
+			path = LidarRadarWidget/PrivacyInfo.xcprivacy;
+			sourceTree = SOURCE_ROOT;
+		};
+		6E34F6398FAF00F9CBB15531 /* Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = Info.plist;
+			path = LidarRadar/Info.plist;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB1A6B4B7EAAB7AD58EC3DDE /* LidarRadar.entitlements */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			name = LidarRadar.entitlements;
+			path = LidarRadar/LidarRadar.entitlements;
+			sourceTree = SOURCE_ROOT;
+		};
+		F937CA8495D5644549E4376C /* Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = Info.plist;
+			path = LidarRadarWidget/Info.plist;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE947DCF5050C6BA1F5764C9 /* LidarRadarWidget.entitlements */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			name = LidarRadarWidget.entitlements;
+			path = LidarRadarWidget/LidarRadarWidget.entitlements;
+			sourceTree = SOURCE_ROOT;
+		};
+		9EC8380118B9E9A58D2BB9FD /* README.md */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			name = README.md;
+			path = README.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		D9FCC7305C1DEC85DAC8ACB4 /* README.en.md */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			name = README.en.md;
+			path = README.en.md;
+			sourceTree = SOURCE_ROOT;
+		};
+		A4DE3181F60BA28A1B2B06F1 /* project.yml */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.yaml;
+			name = project.yml;
+			path = project.yml;
+			sourceTree = SOURCE_ROOT;
+		};
+		85D0A86CEE010B5FE8F4DB4B /* generate_xcodeproj.py */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.script.python;
+			name = generate_xcodeproj.py;
+			path = scripts/generate_xcodeproj.py;
+			sourceTree = SOURCE_ROOT;
+		};
+		E96D6BC058928CFC6C45315A /* ARKit.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = ARKit.framework;
+			path = System/Library/Frameworks/ARKit.framework;
+			sourceTree = SDKROOT;
+		};
+		6AD75F3F297E4D400682E2ED /* Metal.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Metal.framework;
+			path = System/Library/Frameworks/Metal.framework;
+			sourceTree = SDKROOT;
+		};
+		BC45AAAD45CFDFA6E3BAFC4E /* ActivityKit.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = ActivityKit.framework;
+			path = System/Library/Frameworks/ActivityKit.framework;
+			sourceTree = SDKROOT;
+		};
+		2F23FE74F60C948B891E6A4F /* CoreHaptics.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreHaptics.framework;
+			path = System/Library/Frameworks/CoreHaptics.framework;
+			sourceTree = SDKROOT;
+		};
+		F959D8E3747D5EA0943B928E /* AVFoundation.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AVFoundation.framework;
+			path = System/Library/Frameworks/AVFoundation.framework;
+			sourceTree = SDKROOT;
+		};
+		D30A515BA54B8F39AE510317 /* AVKit.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AVKit.framework;
+			path = System/Library/Frameworks/AVKit.framework;
+			sourceTree = SDKROOT;
+		};
+		BFB7C42DE317811025FD8459 /* CoreMedia.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreMedia.framework;
+			path = System/Library/Frameworks/CoreMedia.framework;
+			sourceTree = SDKROOT;
+		};
+		4027DC3FBB9541E91B30A58D /* AudioToolbox.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioToolbox.framework;
+			path = System/Library/Frameworks/AudioToolbox.framework;
+			sourceTree = SDKROOT;
+		};
+		3FA1F6624569F4356BB02CB6 /* CoreLocation.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreLocation.framework;
+			path = System/Library/Frameworks/CoreLocation.framework;
+			sourceTree = SDKROOT;
+		};
+		93A3F7CC0C9772A97538D937 /* CoreVideo.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreVideo.framework;
+			path = System/Library/Frameworks/CoreVideo.framework;
+			sourceTree = SDKROOT;
+		};
+		C92772AB9B5861FC5D635CBF /* Combine.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Combine.framework;
+			path = System/Library/Frameworks/Combine.framework;
+			sourceTree = SDKROOT;
+		};
+		4F7A3BD4203C8FDCCFB95455 /* UIKit.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = UIKit.framework;
+			path = System/Library/Frameworks/UIKit.framework;
+			sourceTree = SDKROOT;
+		};
+		014BC5A64E60A0EB48EF47D1 /* SwiftUI.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = SwiftUI.framework;
+			path = System/Library/Frameworks/SwiftUI.framework;
+			sourceTree = SDKROOT;
+		};
+		3CB8ADC5DD0AE203241447C7 /* WidgetKit.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = WidgetKit.framework;
+			path = System/Library/Frameworks/WidgetKit.framework;
+			sourceTree = SDKROOT;
+		};
+		8367DB314116F357E4DE4633 /* LidarRadar.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = LidarRadar.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FBA5B4BA085BC2E9B9C6CE70 /* LidarRadarWidget.appex */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.app-extension;
+			includeInIndex = 0;
+			path = LidarRadarWidget.appex;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5176DF4D30C318A501ACEAE4 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				BC4AE75127CED2F7EEE02393 /* DistanceStabilizer.swift */,
+				72DC6AAFF692B436DE861B98 /* LiDARSessionController.swift */,
+				EB4E8AFD44C4E1AF1B4E61D0 /* MetalDepthReducer.swift */,
+				38B0FDECB544351FFF519EC3 /* MultitaskingCamera.swift */,
+				7DD310043F1ED1A0B90F9E40 /* LiDARMultitaskingCapture.swift */,
+			);
+			name = AR;
+			sourceTree = "<group>";
+		};
+		8905E081C121A913DE81D9BB /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				982475C7C68134F75603FD0F /* AlertEngine.swift */,
+			);
+			name = Alerts;
+			sourceTree = "<group>";
+		};
+		D9BF7C341884F75A4D02B29A /* LiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				1C83C34570AB91F1DCFF2F5F /* LiveActivityManager.swift */,
+			);
+			name = LiveActivity;
+			sourceTree = "<group>";
+		};
+		B3C9C62B8CEDD86A19D80041 /* PiP */ = {
+			isa = PBXGroup;
+			children = (
+				51332097B73E72B006E5D52E /* DistanceCardRenderer.swift */,
+				EB3DF61E17D6C5A8930067FD /* DistancePictureInPicture.swift */,
+			);
+			name = PiP;
+			sourceTree = "<group>";
+		};
+		E9603018A869207932C0B0AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E9C39E75C91D89729BB95660 /* AppModel.swift */,
+				8A32EB9E98884CA74A5087ED /* BackgroundKeeper.swift */,
+				1FD251FA7BF4FC54902E348F /* SettingsStore.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		38E0738D756BC726F516E87A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5AB5B78E77E4B23A1A5040A /* ConsentView.swift */,
+				C1EDF5161D451FFBE4EB0BF0 /* PermissionView.swift */,
+				383B3827BCED61EC4ADDFBCC /* RadarView.swift */,
+				B3C8017265CE6DD5CEBDAA62 /* SettingsView.swift */,
+				BD5CD3779C98F139AA4B59BD /* Theme.swift */,
+				F9041F220F3C865C24C560FE /* UnsupportedDeviceView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5EF7B44D2198E0D8BBC2FA88 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				F932763ABCD1108FF87F9C36 /* DepthReduction.metal */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		1ABA031A50E06CA22748F394 /* en */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = en;
+			path = LidarRadar/en.lproj/InfoPlist.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+		23077A15C2047943C9A17196 /* zh-Hant */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = "zh-Hant";
+			path = "LidarRadar/zh-Hant.lproj/InfoPlist.strings";
+			sourceTree = SOURCE_ROOT;
+		};
+		F1C6F3DC8177EDE7C6D38714 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABA031A50E06CA22748F394 /* en */,
+				23077A15C2047943C9A17196 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		031CC66C7EC7D5EDAA631BBF /* en */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = en;
+			path = LidarRadarWidget/en.lproj/InfoPlist.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+		CD369E0B1E29657CD1E4D288 /* zh-Hant */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = "zh-Hant";
+			path = "LidarRadarWidget/zh-Hant.lproj/InfoPlist.strings";
+			sourceTree = SOURCE_ROOT;
+		};
+		C6A35DE92D1D08CADB9360D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031CC66C7EC7D5EDAA631BBF /* en */,
+				CD369E0B1E29657CD1E4D288 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AEB999211063E95E61F364E /* LidarRadar */ = {
+			isa = PBXGroup;
+			children = (
+				92DF923D07A80185DC787C29 /* LidarRadarApp.swift */,
+				7A9576ADAD3F9CAA640C04F4 /* Assets.xcassets */,
+				21E9517B78388116928B9331 /* PrivacyInfo.xcprivacy */,
+				6E34F6398FAF00F9CBB15531 /* Info.plist */,
+				EB1A6B4B7EAAB7AD58EC3DDE /* LidarRadar.entitlements */,
+				5176DF4D30C318A501ACEAE4 /* AR */,
+				8905E081C121A913DE81D9BB /* Alerts */,
+				D9BF7C341884F75A4D02B29A /* LiveActivity */,
+				B3C9C62B8CEDD86A19D80041 /* PiP */,
+				E9603018A869207932C0B0AE /* Services */,
+				38E0738D756BC726F516E87A /* Views */,
+				5EF7B44D2198E0D8BBC2FA88 /* Shaders */,
+				F1C6F3DC8177EDE7C6D38714 /* InfoPlist.strings */,
+			);
+			name = LidarRadar;
+			sourceTree = "<group>";
+		};
+		2FBC45ECF5396F28EEA042D5 /* LidarRadarWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFF2FCD007E23C51775EA2 /* RadarLiveActivityWidget.swift */,
+				39CDEBF10F4B284BE8C4FA9E /* PrivacyInfo.xcprivacy */,
+				F937CA8495D5644549E4376C /* Info.plist */,
+				BE947DCF5050C6BA1F5764C9 /* LidarRadarWidget.entitlements */,
+				C6A35DE92D1D08CADB9360D6 /* InfoPlist.strings */,
+			);
+			name = LidarRadarWidget;
+			sourceTree = "<group>";
+		};
+		4D733088F48B087333D1331E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8E6185D19FD401D45C9AAE51 /* DangerLevel.swift */,
+				CDFF768B1F3E73072A0842E7 /* RadarAttributes.swift */,
+				4105278E1A2F83193451B170 /* L10n.swift */,
+				791A0732AF26A719F97922EE /* Localizable.xcstrings */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		7007D34BF30A5E5D8F03CC84 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				85D0A86CEE010B5FE8F4DB4B /* generate_xcodeproj.py */,
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		09CBFC6787C0DEC13C326680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E96D6BC058928CFC6C45315A /* ARKit.framework */,
+				6AD75F3F297E4D400682E2ED /* Metal.framework */,
+				BC45AAAD45CFDFA6E3BAFC4E /* ActivityKit.framework */,
+				2F23FE74F60C948B891E6A4F /* CoreHaptics.framework */,
+				F959D8E3747D5EA0943B928E /* AVFoundation.framework */,
+				D30A515BA54B8F39AE510317 /* AVKit.framework */,
+				BFB7C42DE317811025FD8459 /* CoreMedia.framework */,
+				4027DC3FBB9541E91B30A58D /* AudioToolbox.framework */,
+				3FA1F6624569F4356BB02CB6 /* CoreLocation.framework */,
+				93A3F7CC0C9772A97538D937 /* CoreVideo.framework */,
+				C92772AB9B5861FC5D635CBF /* Combine.framework */,
+				4F7A3BD4203C8FDCCFB95455 /* UIKit.framework */,
+				014BC5A64E60A0EB48EF47D1 /* SwiftUI.framework */,
+				3CB8ADC5DD0AE203241447C7 /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC891EC06CEBF20F30FA0E3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8367DB314116F357E4DE4633 /* LidarRadar.app */,
+				FBA5B4BA085BC2E9B9C6CE70 /* LidarRadarWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		871844B8711B037314D660AC /* LidarRadar */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB999211063E95E61F364E /* LidarRadar */,
+				2FBC45ECF5396F28EEA042D5 /* LidarRadarWidget */,
+				4D733088F48B087333D1331E /* Shared */,
+				7007D34BF30A5E5D8F03CC84 /* scripts */,
+				9EC8380118B9E9A58D2BB9FD /* README.md */,
+				D9FCC7305C1DEC85DAC8ACB4 /* README.en.md */,
+				A4DE3181F60BA28A1B2B06F1 /* project.yml */,
+				09CBFC6787C0DEC13C326680 /* Frameworks */,
+				BC891EC06CEBF20F30FA0E3E /* Products */,
+			);
+			name = LidarRadar;
+			sourceTree = "<group>";
+		};
+		3A8D1AA377083E709CCA0955 /* LidarRadarApp.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 92DF923D07A80185DC787C29 /* LidarRadarApp.swift */;
+		};
+		1C8E7ABC7A3B7608C11EC7B5 /* DistanceStabilizer.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = BC4AE75127CED2F7EEE02393 /* DistanceStabilizer.swift */;
+		};
+		E48D68DF94FEE16003526616 /* LiDARSessionController.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 72DC6AAFF692B436DE861B98 /* LiDARSessionController.swift */;
+		};
+		E026C50BC15DD3EEEAE876A1 /* MetalDepthReducer.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = EB4E8AFD44C4E1AF1B4E61D0 /* MetalDepthReducer.swift */;
+		};
+		278D8A9014AEF81E64E23240 /* MultitaskingCamera.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 38B0FDECB544351FFF519EC3 /* MultitaskingCamera.swift */;
+		};
+		D3CF15FBE40B607822E0FD04 /* LiDARMultitaskingCapture.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 7DD310043F1ED1A0B90F9E40 /* LiDARMultitaskingCapture.swift */;
+		};
+		63EB44045600A87F6F827921 /* AlertEngine.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 982475C7C68134F75603FD0F /* AlertEngine.swift */;
+		};
+		DE79F0C004C5D0AEB4742149 /* LiveActivityManager.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 1C83C34570AB91F1DCFF2F5F /* LiveActivityManager.swift */;
+		};
+		43BDD95AFC42DC0778B8AD69 /* DistanceCardRenderer.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 51332097B73E72B006E5D52E /* DistanceCardRenderer.swift */;
+		};
+		37EA272D617CAD9E38895C7E /* DistancePictureInPicture.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = EB3DF61E17D6C5A8930067FD /* DistancePictureInPicture.swift */;
+		};
+		A7434091CF9E41EAD60C79AB /* AppModel.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = E9C39E75C91D89729BB95660 /* AppModel.swift */;
+		};
+		63D6248D3CDBFEFE13F83143 /* BackgroundKeeper.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 8A32EB9E98884CA74A5087ED /* BackgroundKeeper.swift */;
+		};
+		494E43CC7CD3417A169FA867 /* SettingsStore.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 1FD251FA7BF4FC54902E348F /* SettingsStore.swift */;
+		};
+		5798C68C1E860D04170E2AF7 /* ConsentView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = E5AB5B78E77E4B23A1A5040A /* ConsentView.swift */;
+		};
+		7DE77F2F2B16BE0CAE0D8CDC /* PermissionView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = C1EDF5161D451FFBE4EB0BF0 /* PermissionView.swift */;
+		};
+		081ACD4EB4E1678026B3D8DE /* RadarView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 383B3827BCED61EC4ADDFBCC /* RadarView.swift */;
+		};
+		375CBFF608B871525D3042AA /* SettingsView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = B3C8017265CE6DD5CEBDAA62 /* SettingsView.swift */;
+		};
+		23F0845B4D61ACD4A6D3C192 /* Theme.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = BD5CD3779C98F139AA4B59BD /* Theme.swift */;
+		};
+		21ADDC077E523847838FFC05 /* UnsupportedDeviceView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = F9041F220F3C865C24C560FE /* UnsupportedDeviceView.swift */;
+		};
+		5FD4B1C7B19E144B0DFAC15E /* DepthReduction.metal in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = F932763ABCD1108FF87F9C36 /* DepthReduction.metal */;
+		};
+		91542F8A3971614B4712892B /* DangerLevel.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 8E6185D19FD401D45C9AAE51 /* DangerLevel.swift */;
+		};
+		B323B518DC7C16C26B8B579D /* RadarAttributes.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = CDFF768B1F3E73072A0842E7 /* RadarAttributes.swift */;
+		};
+		C576A003188F9F801007E635 /* L10n.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 4105278E1A2F83193451B170 /* L10n.swift */;
+		};
+		B9E0D67686FF04B22EFE1272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8D1AA377083E709CCA0955 /* LidarRadarApp.swift in Sources */,
+				1C8E7ABC7A3B7608C11EC7B5 /* DistanceStabilizer.swift in Sources */,
+				E48D68DF94FEE16003526616 /* LiDARSessionController.swift in Sources */,
+				E026C50BC15DD3EEEAE876A1 /* MetalDepthReducer.swift in Sources */,
+				278D8A9014AEF81E64E23240 /* MultitaskingCamera.swift in Sources */,
+				D3CF15FBE40B607822E0FD04 /* LiDARMultitaskingCapture.swift in Sources */,
+				63EB44045600A87F6F827921 /* AlertEngine.swift in Sources */,
+				DE79F0C004C5D0AEB4742149 /* LiveActivityManager.swift in Sources */,
+				43BDD95AFC42DC0778B8AD69 /* DistanceCardRenderer.swift in Sources */,
+				37EA272D617CAD9E38895C7E /* DistancePictureInPicture.swift in Sources */,
+				A7434091CF9E41EAD60C79AB /* AppModel.swift in Sources */,
+				63D6248D3CDBFEFE13F83143 /* BackgroundKeeper.swift in Sources */,
+				494E43CC7CD3417A169FA867 /* SettingsStore.swift in Sources */,
+				5798C68C1E860D04170E2AF7 /* ConsentView.swift in Sources */,
+				7DE77F2F2B16BE0CAE0D8CDC /* PermissionView.swift in Sources */,
+				081ACD4EB4E1678026B3D8DE /* RadarView.swift in Sources */,
+				375CBFF608B871525D3042AA /* SettingsView.swift in Sources */,
+				23F0845B4D61ACD4A6D3C192 /* Theme.swift in Sources */,
+				21ADDC077E523847838FFC05 /* UnsupportedDeviceView.swift in Sources */,
+				5FD4B1C7B19E144B0DFAC15E /* DepthReduction.metal in Sources */,
+				91542F8A3971614B4712892B /* DangerLevel.swift in Sources */,
+				B323B518DC7C16C26B8B579D /* RadarAttributes.swift in Sources */,
+				C576A003188F9F801007E635 /* L10n.swift in Sources */,
+			);
+			name = Sources;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD35CACEE4A044AA9AE7DBDF /* ARKit.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = E96D6BC058928CFC6C45315A /* ARKit.framework */;
+		};
+		033D2C8B1120D9814D800484 /* Metal.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 6AD75F3F297E4D400682E2ED /* Metal.framework */;
+		};
+		4AFF59A1EC6F4D331A29D311 /* ActivityKit.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = BC45AAAD45CFDFA6E3BAFC4E /* ActivityKit.framework */;
+		};
+		D95E394B9CC51A00CE5889A0 /* CoreHaptics.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 2F23FE74F60C948B891E6A4F /* CoreHaptics.framework */;
+		};
+		7BC87EDD9337C8FBFA9F09B8 /* AVFoundation.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = F959D8E3747D5EA0943B928E /* AVFoundation.framework */;
+		};
+		16E3FF1D070BF5D246AE8192 /* AVKit.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = D30A515BA54B8F39AE510317 /* AVKit.framework */;
+		};
+		0B0E22F036822484B6F20A81 /* CoreMedia.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = BFB7C42DE317811025FD8459 /* CoreMedia.framework */;
+		};
+		CA134FB1BA390255D06C91B2 /* AudioToolbox.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 4027DC3FBB9541E91B30A58D /* AudioToolbox.framework */;
+		};
+		2CECA64B8BC768E5CEF6ABDD /* CoreLocation.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 3FA1F6624569F4356BB02CB6 /* CoreLocation.framework */;
+		};
+		EA7A6CFEC3066E68B8571D6B /* CoreVideo.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 93A3F7CC0C9772A97538D937 /* CoreVideo.framework */;
+		};
+		BE6B323684730CFF3B37F4B4 /* Combine.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = C92772AB9B5861FC5D635CBF /* Combine.framework */;
+		};
+		964830B4ADBBDD34BC6BEB46 /* UIKit.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 4F7A3BD4203C8FDCCFB95455 /* UIKit.framework */;
+		};
+		1915FC16C6A4833BCB2D5F09 /* SwiftUI.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 014BC5A64E60A0EB48EF47D1 /* SwiftUI.framework */;
+		};
+		1A8E8290C16ABAF9C40478BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD35CACEE4A044AA9AE7DBDF /* ARKit.framework in Frameworks */,
+				033D2C8B1120D9814D800484 /* Metal.framework in Frameworks */,
+				4AFF59A1EC6F4D331A29D311 /* ActivityKit.framework in Frameworks */,
+				D95E394B9CC51A00CE5889A0 /* CoreHaptics.framework in Frameworks */,
+				7BC87EDD9337C8FBFA9F09B8 /* AVFoundation.framework in Frameworks */,
+				16E3FF1D070BF5D246AE8192 /* AVKit.framework in Frameworks */,
+				0B0E22F036822484B6F20A81 /* CoreMedia.framework in Frameworks */,
+				CA134FB1BA390255D06C91B2 /* AudioToolbox.framework in Frameworks */,
+				2CECA64B8BC768E5CEF6ABDD /* CoreLocation.framework in Frameworks */,
+				EA7A6CFEC3066E68B8571D6B /* CoreVideo.framework in Frameworks */,
+				BE6B323684730CFF3B37F4B4 /* Combine.framework in Frameworks */,
+				964830B4ADBBDD34BC6BEB46 /* UIKit.framework in Frameworks */,
+				1915FC16C6A4833BCB2D5F09 /* SwiftUI.framework in Frameworks */,
+			);
+			name = Frameworks;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30091E6B8E81E054839E25D8 /* Assets.xcassets in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 7A9576ADAD3F9CAA640C04F4 /* Assets.xcassets */;
+		};
+		2476E268B4F1D784B54C57BA /* PrivacyInfo.xcprivacy in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 21E9517B78388116928B9331 /* PrivacyInfo.xcprivacy */;
+		};
+		C9D001D68F3A1266F64A1A2F /* Localizable.xcstrings in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 791A0732AF26A719F97922EE /* Localizable.xcstrings */;
+		};
+		2F2F4612D21EAED398750991 /* InfoPlist.strings in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = F1C6F3DC8177EDE7C6D38714 /* InfoPlist.strings */;
+		};
+		36137F3491D4B15438E557CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30091E6B8E81E054839E25D8 /* Assets.xcassets in Resources */,
+				2476E268B4F1D784B54C57BA /* PrivacyInfo.xcprivacy in Resources */,
+				C9D001D68F3A1266F64A1A2F /* Localizable.xcstrings in Resources */,
+				2F2F4612D21EAED398750991 /* InfoPlist.strings in Resources */,
+			);
+			name = Resources;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3890BA360A5F918C8F77D02E /* LidarRadarWidget.appex in Embed Foundation Extensions */ = {
+			isa = PBXBuildFile;
+			fileRef = FBA5B4BA085BC2E9B9C6CE70 /* LidarRadarWidget.appex */;
+			settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); };
+		};
+		5315D453A11D7E2B996D22DD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3890BA360A5F918C8F77D02E /* LidarRadarWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+		};
+		326883FD5D7BD9D2B1B7A63C /* RadarLiveActivityWidget.swift in Widget Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = C7DFF2FCD007E23C51775EA2 /* RadarLiveActivityWidget.swift */;
+		};
+		D3D4029B4F7FBB121A345DB8 /* DangerLevel.swift in Widget Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 8E6185D19FD401D45C9AAE51 /* DangerLevel.swift */;
+		};
+		A0995DF6718EC92231F15554 /* RadarAttributes.swift in Widget Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = CDFF768B1F3E73072A0842E7 /* RadarAttributes.swift */;
+		};
+		4D448B2C456EB38386941FBD /* L10n.swift in Widget Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 4105278E1A2F83193451B170 /* L10n.swift */;
+		};
+		6BDAF715A0C89B6E008B52BA /* Widget Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326883FD5D7BD9D2B1B7A63C /* RadarLiveActivityWidget.swift in Widget Sources */,
+				D3D4029B4F7FBB121A345DB8 /* DangerLevel.swift in Widget Sources */,
+				A0995DF6718EC92231F15554 /* RadarAttributes.swift in Widget Sources */,
+				4D448B2C456EB38386941FBD /* L10n.swift in Widget Sources */,
+			);
+			name = "Widget Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EF65441997987EF6621A3B /* WidgetKit.framework in Widget Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 3CB8ADC5DD0AE203241447C7 /* WidgetKit.framework */;
+		};
+		11AF9E6FD83579CC65C2651F /* SwiftUI.framework in Widget Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 014BC5A64E60A0EB48EF47D1 /* SwiftUI.framework */;
+		};
+		FEBDA73DFD0EFAAB4F109267 /* ActivityKit.framework in Widget Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = BC45AAAD45CFDFA6E3BAFC4E /* ActivityKit.framework */;
+		};
+		871AAC70E7DCB694D8A126C9 /* Widget Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EF65441997987EF6621A3B /* WidgetKit.framework in Widget Frameworks */,
+				11AF9E6FD83579CC65C2651F /* SwiftUI.framework in Widget Frameworks */,
+				FEBDA73DFD0EFAAB4F109267 /* ActivityKit.framework in Widget Frameworks */,
+			);
+			name = "Widget Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08479A141372D13B0F0F741C /* PrivacyInfo.xcprivacy in Widget Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 39CDEBF10F4B284BE8C4FA9E /* PrivacyInfo.xcprivacy */;
+		};
+		15EDBDFF4EED668B0E379D1D /* Localizable.xcstrings in Widget Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 791A0732AF26A719F97922EE /* Localizable.xcstrings */;
+		};
+		4B470C8128A41A4281199C55 /* InfoPlist.strings in Widget Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = C6A35DE92D1D08CADB9360D6 /* InfoPlist.strings */;
+		};
+		601038903C3EEA5542840AA7 /* Widget Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08479A141372D13B0F0F741C /* PrivacyInfo.xcprivacy in Widget Resources */,
+				15EDBDFF4EED668B0E379D1D /* Localizable.xcstrings in Widget Resources */,
+				4B470C8128A41A4281199C55 /* InfoPlist.strings in Widget Resources */,
+			);
+			name = "Widget Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CE23B3FFAF5D18413AC17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CD759D4193846E4910FD9BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FD987D3E9766C14BE83D8B1;
+			remoteInfo = LidarRadarWidget;
+		};
+		514945130E86D68B245C2D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FD987D3E9766C14BE83D8B1 /* LidarRadarWidget */;
+			targetProxy = 00CE23B3FFAF5D18413AC17C /* PBXContainerItemProxy */;
+		};
+		AF83E0BEC664B79B97CC278B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LidarRadar/LidarRadar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LidarRadar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwok.lidarradar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3682E329B60CA86FC79FC004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LidarRadar/LidarRadar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LidarRadar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwok.lidarradar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		117041AB62234294993A23CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = LidarRadarWidget/LidarRadarWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LidarRadarWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwok.lidarradar.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C8A1AE1C89DFD1A7AA4BD414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = LidarRadarWidget/LidarRadarWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LidarRadarWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwok.lidarradar.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D632BA9F3337A7D7C435BC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				DEVELOPMENT_LANGUAGE = en;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		805EB36AB2859EFDBE3A2618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				DEVELOPMENT_LANGUAGE = en;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A1DB685DBEBF25135832368 /* Build configuration list for PBXNativeTarget "LidarRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF83E0BEC664B79B97CC278B /* Debug */,
+				3682E329B60CA86FC79FC004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E8DAB8A6CD2A7FCB3BA0DC /* Build configuration list for PBXNativeTarget "LidarRadarWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117041AB62234294993A23CE /* Debug */,
+				C8A1AE1C89DFD1A7AA4BD414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9866F49FEB9A1B8810B62C /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D632BA9F3337A7D7C435BC53 /* Debug */,
+				805EB36AB2859EFDBE3A2618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD987D3E9766C14BE83D8B1 /* LidarRadarWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E8DAB8A6CD2A7FCB3BA0DC /* Build configuration list for PBXNativeTarget "LidarRadarWidget" */;
+			buildPhases = (
+				6BDAF715A0C89B6E008B52BA /* Widget Sources */,
+				871AAC70E7DCB694D8A126C9 /* Widget Frameworks */,
+				601038903C3EEA5542840AA7 /* Widget Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LidarRadarWidget;
+			productName = LidarRadarWidget;
+			productReference = FBA5B4BA085BC2E9B9C6CE70 /* LidarRadarWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C41236188B7DC8E1CDC375D0 /* LidarRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1DB685DBEBF25135832368 /* Build configuration list for PBXNativeTarget "LidarRadar" */;
+			buildPhases = (
+				B9E0D67686FF04B22EFE1272 /* Sources */,
+				1A8E8290C16ABAF9C40478BF /* Frameworks */,
+				36137F3491D4B15438E557CB /* Resources */,
+				5315D453A11D7E2B996D22DD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				514945130E86D68B245C2D06 /* PBXTargetDependency */,
+			);
+			name = LidarRadar;
+			productName = LidarRadar;
+			productReference = 8367DB314116F357E4DE4633 /* LidarRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CD759D4193846E4910FD9BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = Kwok;
+				TargetAttributes = {
+					C41236188B7DC8E1CDC375D0 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+					};
+					9FD987D3E9766C14BE83D8B1 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A9866F49FEB9A1B8810B62C /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 871844B8711B037314D660AC /* LidarRadar */;
+			productRefGroup = BC891EC06CEBF20F30FA0E3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41236188B7DC8E1CDC375D0 /* LidarRadar */,
+				9FD987D3E9766C14BE83D8B1 /* LidarRadarWidget */,
+			);
+		};
+	};
+	rootObject = 5CD759D4193846E4910FD9BB /* Project object */;
+}

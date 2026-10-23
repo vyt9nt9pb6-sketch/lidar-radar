@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Forward Radar";
+"NSCameraUsageDescription" = "Forward Radar needs the camera and LiDAR to measure the nearest obstacle directly ahead. Depth is calculated on this iPhone only. It is not saved to Photos and it is not uploaded.";
+"NSLocationWhenInUseUsageDescription" = "While monitoring, Forward Radar may use approximate location so iOS is more willing to give the app a moment to mark the alert as paused when you switch apps. Your location is not stored or uploaded. You can deny this. Measuring while this app is on screen still works.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "If you later switch location access to Always in Settings, Forward Radar only uses it to gain a little time to mark the alert as paused. Location is not recorded or uploaded. iOS still turns LiDAR off when the phone is locked or another app is in front.";
+"NSMotionUsageDescription" = "Forward Radar uses the motion sensors so LiDAR knows which way the back of the phone is pointing. Motion data is used live on this iPhone only. It is not stored or uploaded.";

@@ -1,0 +1,104 @@
+name: LidarRadar
+options:
+  bundleIdPrefix: com.kwok
+  deploymentTarget:
+    iOS: "16.1"
+  developmentLanguage: en
+  groupSortPosition: top
+  createIntermediateGroups: true
+  # 已附上產生好的 xcodeproj。這個檔是同一份設定，只有專案檔壞掉時才需要 xcodegen。
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "16.1"
+    TARGETED_DEVICE_FAMILY: "1"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    SUPPORTS_MACCATALYST: NO
+    SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+    SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEVELOPMENT_LANGUAGE: en
+    LOCALIZATION_PREFERS_STRING_CATALOGS: "YES"
+    # LIDAR_MULTITASKING_CAPTURE 預設關閉，不要寫進 SWIFT_ACTIVE_COMPILATION_CONDITIONS。
+    # 打開之後才會編譯 builtInLiDARDepthCamera 路徑（LidarRadar/AR/LiDARMultitaskingCapture.swift）。
+    # 背景要真的繼續出深度，還得由 Apple 核准 entitlement
+    # com.apple.developer.avfoundation.multitasking-camera-access。
+    # 免費 Apple ID 簽不了，所以不要加進 LidarRadar.entitlements，也不要加 voip 背景模式。
+    # 子母畫面實驗不靠這個旗標。它只畫距離卡片，不能讓光達在背景繼續跑。
+fileGroups:
+  - README.md
+  - README.en.md
+  - project.yml
+targets:
+  LidarRadar:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.1"
+    sources:
+      - path: LidarRadar
+        excludes:
+          - Info.plist
+          - LidarRadar.entitlements
+      - path: Shared
+    info:
+      path: LidarRadar/Info.plist
+    entitlements:
+      path: LidarRadar/LidarRadar.entitlements
+    dependencies:
+      - target: LidarRadarWidget
+        embed: true
+        codeSign: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kwok.lidarradar
+        PRODUCT_NAME: LidarRadar
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: LidarRadar/Info.plist
+        CODE_SIGN_ENTITLEMENTS: LidarRadar/LidarRadar.entitlements
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+        LD_RUNPATH_SEARCH_PATHS:
+          - "$(inherited)"
+          - "@executable_path/Frameworks"
+  LidarRadarWidget:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "16.1"
+    sources:
+      - path: LidarRadarWidget
+        excludes:
+          - Info.plist
+          - LidarRadarWidget.entitlements
+      - path: Shared
+    info:
+      path: LidarRadarWidget/Info.plist
+    entitlements:
+      path: LidarRadarWidget/LidarRadarWidget.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kwok.lidarradar.widget
+        PRODUCT_NAME: LidarRadarWidget
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: LidarRadarWidget/Info.plist
+        CODE_SIGN_ENTITLEMENTS: LidarRadarWidget/LidarRadarWidget.entitlements
+        APPLICATION_EXTENSION_API_ONLY: YES
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        LD_RUNPATH_SEARCH_PATHS:
+          - "$(inherited)"
+          - "@executable_path/Frameworks"
+          - "@executable_path/../../Frameworks"
+schemes:
+  LidarRadar:
+    build:
+      targets:
+        LidarRadar: all
+        LidarRadarWidget: all
+    run:
+      config: Debug
+    archive:
+      config: Release

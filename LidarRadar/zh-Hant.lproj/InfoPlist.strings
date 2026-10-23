@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "前方雷達";
+"NSCameraUsageDescription" = "前方雷達需要相機與光達，用來測量你正前方最近的障礙物。深度只在這支手機上即時計算，不會存進相簿，也不會上傳。";
+"NSLocationWhenInUseUsageDescription" = "前方雷達會在監測時使用粗略定位，讓系統在你切換 App 的短暫期間比較願意讓這個 App 把警示改成已暫停。你的位置不會被儲存或上傳。可以拒絕，這個 App 在畫面上時的測距仍然可用。";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "若你在系統設定裡改成永遠允許定位，前方雷達只會用它多爭取一點時間，把動態島改成已暫停。位置不會被記錄或上傳。鎖定畫面或別的 App 在前景時，光達仍會被 iOS 關掉。";
+"NSMotionUsageDescription" = "前方雷達會使用手機的動作感測器，讓光達知道背面正對的方向。動作資料只在這支手機上即時使用，不會儲存或上傳。";

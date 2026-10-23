@@ -7,3 +7,8 @@ xcuserdata/
 .swiftpm/
 .idea/
 agent-tools/
+.build/
+.env
+.env.*
+*.p12
+*.mobileprovision
